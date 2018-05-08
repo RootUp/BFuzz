@@ -25,7 +25,7 @@ The testcase's in `recurve` is been collected by different `exploit DB` forums a
 ## BFuzz On Action
 
 Here is one of the example which running BFuzz on `Epiphany Web 3.28.1`: Bug ID: GNOME, 95740 
-However a `Stack Overflow` was also observed while running `BFuzz` on Firefox but it went duplicate, FF Bug ID: `1456083`
+However a `Stack Overflow` was also observed while running `BFuzz` on Firefox but it went duplicate, FF Bug ID: `1456083`<br>
 Video: https://youtu.be/I59SkL0ReUM
 
 ## Contribution
