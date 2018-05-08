@@ -32,6 +32,10 @@ Video: https://youtu.be/I59SkL0ReUM
 
 Please feel free to PR.
 
+## Thank you
+
+Zubin, Hardik, Bakhtyar
+
 ## ToDo
 
 Handle Exeception, Add banner, Add more testcases, Optimize Code.
