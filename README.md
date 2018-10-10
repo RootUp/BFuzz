@@ -33,7 +33,7 @@ Please feel free to PR.
 
 ## Thank you
 
-Zubin, Hardik, Bakhtyar
+Bakhtyar
 
 ## ToDo
 
