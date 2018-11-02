@@ -29,7 +29,7 @@ grammar.py contains the generation engine that is mostly application-agnostic an
 .txt files contain grammar definitions. There are 3 main files, html.txt, css.txt and js.txt which contain HTML, CSS and JavaScript grammars, respectively. These root grammar files may include content from other files.
 
 ## Bug showcase
-Epiphany Web 3.28.1: [CVE-2018-11396](https://bugzilla.gnome.org/show_bug.cgi?id=795740)<br>
+Epiphany Web 3.28.1: [CVE-2018-11396](https://bugzilla.gnome.org/show_bug.cgi?id=795740), new [testcase](https://gist.github.com/RootUp/05b623a8169efef9909e764d63ec4408) identified for CVE-2018-11396<br>
 Mozilla Firefox: Stack based buffer overflow bug ID: 1456083 [Went DUPLICATE] <br>
 
 ## View in action
