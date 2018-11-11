@@ -5,6 +5,7 @@ import subprocess
 import sys
 from time import sleep
 
+
 def runWebTest():
     dir_path = os.path.dirname(os.path.realpath(__file__))
     print("Enter the browser type:  \n 1: Chrome \n 2: Firefox")
@@ -23,12 +24,12 @@ def runWebTest():
             else:
                 print "Invalid Browser Type"
 
+
 def runExploit(processCommand, timeout):
     print "Executing Command: " + " ".join(processCommand)
     process = subprocess.Popen(processCommand)
     sleep(timeout)
-    print "Killing browser process.... bye bye"
-    process.kill()
+    # print "Killing browser process.... bye bye"
     sleep(3)
 
 
@@ -43,7 +44,7 @@ def getBrowserApplication(browserType):
     if browserType == 1:
         processCommand = ['google-chrome']
     elif browserType == 2:
-        processCommand = ['firefox', '--new-instance']
+        processCommand = ['firefox', '-new-tab']
     else:
         processCommand = None
     return processCommand
